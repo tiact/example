@@ -1,0 +1,118 @@
+.main {
+    height: 90vh;
+    padding: 30px 0px;
+}
+
+.file-container {
+    padding: 10px;
+    z-index: 1000;
+}
+
+.toggle-hide{
+    display: none;
+}
+
+.first-item input{
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #1E9FFF;
+    max-width: 200px;
+}
+
+#pathList {
+    overflow-y: scroll;
+    //height: 70vh;
+}
+
+.file-ico {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.opt-ico {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.router-color {
+    color: #1E9FFF;
+}
+
+.router-bar {
+    display: flex;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+}
+
+.down-container {
+    background-color: #fff;
+    z-index: 1001;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 2px;
+}
+
+.down-show{
+    width: 30%;
+    min-width: 350px;
+}
+
+.down-bar{
+    text-align: right;
+    padding: 10px;
+    border-bottom: 2px solid #b5d2e8;
+}
+
+.down-content{
+    height: 150px;
+    margin-top:5px;
+}
+
+
+.main td {
+    text-align: center;
+    position: relative;
+    padding: 5px;
+}
+
+.first-item{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.first-item-ico{
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+}
+
+.edit-bar{
+    display: none;
+    align-items: center;
+}
+
+.file-opt {
+    display: flex;
+    margin:10px;
+    position: relative;
+}
+
+.file-search {
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    border-radius: 15px;
+    padding: 7px 10px;
+    background: gainsboro;
+}
+
+.file-search input{
+    border: none;
+    background: gainsboro;
+}
